@@ -1,0 +1,63 @@
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.toggle-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.toggle-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+#cv_section h2 {
+    padding: 50px;
+    padding-bottom: 40px;
+    font-size: 3vw;
+    text-align: center;
+}
+#cv_section #books {
+    width: 100%;
+}
+
+#details{
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(228, 226, 226), darkgray);
+}
+
+@media (max-width: 850px) {
+    #cv_section h2 {
+        font-size: 7vw;  
+    }
+    #details {
+        font-size: 3.5vw;
+    }
+}
+@media (min-width: 850px) {
+    #cv_section h2  {
+        font-size: 40px;  
+    }
+    #details {
+        font-size: 2vw;
+    }
+}
+@media (min-width: 1320px) { 
+    #cv_section h2 {
+        font-size: 40px; 
+    }
+    #details {
+        font-size: 25px;
+    }
+}

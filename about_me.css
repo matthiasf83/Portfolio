@@ -1,0 +1,42 @@
+#about_me_section {
+    padding: 50px 25px;
+   
+   
+    
+}
+#about_me_section h2{
+    margin-bottom: 20px;
+    font-size: 3vw;
+    text-align: center;
+    
+} 
+
+@media (max-width: 850px) {
+    #about_me_section h2 {
+        font-size: 7vw;  /* Setzt die Schriftgröße auf 34px, wenn die Breite des Viewports 850px erreicht oder unterschreitet */
+    }
+    #about_me_section p{
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 850px) {
+    .container {
+        width: 850px;
+        margin: 25px auto;
+    }
+    #about_me_section h2 {
+        font-size: 40px;  /* Setzt die Schriftgröße auf 66px, wenn die Breite des Viewports 1320px erreicht oder überschreitet */
+    }
+
+}
+@media (min-width: 1320px) {
+    .container {
+        width: 1320px;
+        margin: 25px auto;
+    }
+    #about_me_section h2 {
+        font-size: 40px;  /* Setzt die Schriftgröße auf 66px, wenn die Breite des Viewports 1320px erreicht oder überschreitet */
+    }
+
+}

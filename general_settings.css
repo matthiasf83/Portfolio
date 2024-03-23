@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-brand-color: #8d8d8d;
+    --primary-color: #575758;
+    --second-color: #232933;
+    --light-secondary-color: #2E3744;
+    --text-color: rgb(41, 39, 39);
+    --second-text-color: #636465;
+    --background-color: rgb(238, 237, 237);
+    --toggle-button-color: #dddada;
+    --skill-item-color: #878686e0;
+} 
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+min-height: 100vh;
+background-color: var(--background-color);
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+color: var(--text-color);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: var(--toggle-button-color); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5%; 
+    right: 3%; 
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(169, 169, 169, 0.5); 
+    color: white;
+    cursor: pointer;
+    padding: 2vw; 
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: rgba(85, 85, 85, 0.5); 
+}
+
+#myBtn::before {
+    content: "⬆";
+    font-size: 2vw; 
+}
+@media (max-width: 800px) {
+    #myBtn {
+        padding: 3vw; 
+    }
+
+    #myBtn::before {
+        font-size: 3vw; 
+    }
+}
+footer {
+    margin-top: 20px; 
+}
+
+.copyright {
+    text-align: right;
+    padding: 10px;
+}
+
+#contact_section h2{
+    padding: 50px 50px 20px 50px;
+    font-size: 3vw;
+    text-align: center;
+    
+} 
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-info p {
+    min-width: 200px; /* Ändern Sie diesen Wert, um die minimale Breite der Elemente zu steuern */
+}
+
+@media (max-width: 850px) {
+    #contact_section h2 {
+        font-size: 7vw;  
+    }
+    #contact_section p {
+        font-size: 2.5vw; 
+    }
+}
+@media (min-width: 850px) {
+    #contact_section h2  {
+        font-size: 40px;  
+    }
+
+}
+@media (min-width: 1320px) { 
+    #contact_section h2 {
+        font-size: 40px; 
+    }
+ 
+}

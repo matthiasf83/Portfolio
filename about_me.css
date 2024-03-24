@@ -13,7 +13,7 @@
 
 @media (max-width: 850px) {
     #about_me_section h2 {
-        font-size: 7vw;  /* Setzt die Schriftgröße auf 34px, wenn die Breite des Viewports 850px erreicht oder unterschreitet */
+        font-size: 7vw;  
     }
     #about_me_section p{
         font-size: 3vw;
@@ -26,7 +26,7 @@
         margin: 25px auto;
     }
     #about_me_section h2 {
-        font-size: 40px;  /* Setzt die Schriftgröße auf 66px, wenn die Breite des Viewports 1320px erreicht oder überschreitet */
+        font-size: 40px;  
     }
 
 }
@@ -36,7 +36,7 @@
         margin: 25px auto;
     }
     #about_me_section h2 {
-        font-size: 40px;  /* Setzt die Schriftgröße auf 66px, wenn die Breite des Viewports 1320px erreicht oder überschreitet */
+        font-size: 40px;  
     }
 
 }

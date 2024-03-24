@@ -67,9 +67,10 @@ footer {
     margin-top: 20px; 
 }
 
-.copyright {
+.copyright { 
     text-align: right;
-    padding: 10px;
+    padding-right: 40px ;
+    padding-bottom: 15px;
 }
 
 #contact_section h2{
@@ -86,7 +87,7 @@ footer {
     padding-bottom: 30px;
 }
 .contact-info p {
-    min-width: 200px; /* Ändern Sie diesen Wert, um die minimale Breite der Elemente zu steuern */
+    min-width: 200px; 
 }
 
 @media (max-width: 850px) {
